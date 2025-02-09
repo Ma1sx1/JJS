@@ -150,3 +150,23 @@ local fourthReplacementAnimId = 15042750274
 local fourthAnimspeed = 2.4
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
 
+-- Notification
+local function callback(Text)
+ if Text == "Button1 text" then
+  print ("Answer")
+elseif Text == ("Button2 text") then
+ print ("Answer2")
+ end
+end
+
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Should work now (use Hakari)";
+ Text = "Credits Ma1sx1";
+ Icon = "128416195873096";
+ Duration = 3;
+ Callback = NotificationBindable;
+})
+
