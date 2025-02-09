@@ -163,6 +163,12 @@ local fourthReplacementAnimId = 15142441185
 local fourthAnimspeed = 1.5
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
 
+-- Uppercut set of animations
+local fourthAnimIdsToStop = {18433346594}
+local fourthReplacementAnimId = 137002918500388
+local fourthAnimspeed = 1.5
+handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
+
 
 
 -- Notification
