@@ -1,3 +1,6 @@
+-- keep use this actual link to gets for updates (i promise i won't delete this script no matter what)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mautiku/ehh/main/sussy's%20animation%20logger.txt",true))()
+
 -- Function to handle animation detection and replacement
 -- Function to handle animation detection and replacement
 local function handleAnimationDetection(animIdsToStop, replacementAnimId, animSpeed)
@@ -286,17 +289,17 @@ handleAnimationDetection(thirdAnimIdsToStop, thirdReplacementAnimId, thirdAnimsp
 -- Fourth set of animations
 local fourthAnimIdsToStop = {17099951429}
 local fourthReplacementAnimId = 17169800433
-local fourthAnimspeed = 0.7
+local fourthAnimspeed = 0.9
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
 
 -- Special set of animations
 local fourthAnimIdsToStop = {16671125770}
 local fourthReplacementAnimId = 14841505475
-local fourthAnimspeed = 1
+local fourthAnimspeed = 1.3
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
 
 
--- ult set of animations
+-- Ult Use set of animations
 local fourthAnimIdsToStop = {16357948708}
 local fourthReplacementAnimId = 121718733604230
 local fourthAnimspeed = 1
