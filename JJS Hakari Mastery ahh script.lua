@@ -1,4 +1,5 @@
 -- Function to handle animation detection and replacement
+-- Function to handle animation detection and replacement
 local function handleAnimationDetection(animIdsToStop, replacementAnimId, animSpeed)
     local player = game.Players.LocalPlayer
     local character = player.Character or player.CharacterAdded:Wait()
@@ -128,8 +129,8 @@ handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAni
 
 -- 2 ULT set of animations
 local fourthAnimIdsToStop = {17011596206}
-local fourthReplacementAnimId = 15042750274
-local fourthAnimspeed = 1
+local fourthReplacementAnimId = 15434683426
+local fourthAnimspeed = 2
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
 
 -- 3 ULT set of animations
@@ -139,8 +140,8 @@ local fourthAnimspeed = 1.3
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
 
 -- 4 ULT set of animations
-local fourthAnimIdsToStop = {17044048176}
-local fourthReplacementAnimId = 15042750274
+local fourthAnimIdsToStop = {17166742239}
+local fourthReplacementAnimId = 17791064680
 local fourthAnimspeed = 1
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
 
@@ -149,6 +150,20 @@ local fourthAnimIdsToStop = {16827230331}
 local fourthReplacementAnimId = 15042750274
 local fourthAnimspeed = 2.4
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
+
+-- Slam set of animations
+local fourthAnimIdsToStop = {15142443111}
+local fourthReplacementAnimId = 15142443111
+local fourthAnimspeed = 1.5
+handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
+
+-- Uppercut set of animations
+local fourthAnimIdsToStop = {15142441185}
+local fourthReplacementAnimId = 15142441185
+local fourthAnimspeed = 1.5
+handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
+
+
 
 -- Notification
 local function callback(Text)
