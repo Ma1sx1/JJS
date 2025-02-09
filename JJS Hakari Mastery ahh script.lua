@@ -170,3 +170,28 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 })
 
+local soundID = 17881719214  -- Replace with the audio's ID
+local userInputService = game:GetService("UserInputService")
+
+local function playSound()
+    local sound = Instance.new("Sound")
+    sound.SoundId = "rbxassetid://" .. soundID
+    sound.Parent = game.Players.LocalPlayer.Character or game.Players.LocalPlayer -- Parent to character if it exists, otherwise parent to player
+
+    -- Set Volume to 0.5
+    sound.Volume = 1
+
+    sound:Play()
+
+    sound.Ended:Connect(function()
+        sound:Destroy() -- Clean up the sound after playing
+    end)
+end
+
+userInputService.InputBegan:Connect(function(inputObject, gameProcessedEvent)
+    if gameProcessedEvent then return end -- Ignore input already processed by the game (e.g., UI)
+
+    if inputObject.KeyCode == Enum.KeyCode.Three then -- Check if the "1" key was pressed
+        playSound()
+    end
+end)
