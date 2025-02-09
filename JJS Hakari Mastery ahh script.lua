@@ -102,7 +102,7 @@ handleAnimationDetection(thirdAnimIdsToStop, thirdReplacementAnimId, thirdAnimsp
 
 -- Fourth set of animations
 local fourthAnimIdsToStop = {17099951429}
-local fourthReplacementAnimId = 17169800433
+local fourthReplacementAnimId = 120144030789516
 local fourthAnimspeed = 0.7
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
 
