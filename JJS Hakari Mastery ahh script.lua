@@ -348,7 +348,7 @@ game.StarterGui:SetCore("SendNotification",  {
 
 local soundID = 9039704032  -- Replace with the audio's ID
 local userInputService = game:GetService("UserInputService")
-local debounceTime = 100       -- The minimum time (in seconds) between sound plays
+local debounceTime = 240       -- The minimum time (in seconds) between sound plays
 local lastPlayed = 0         -- The time when the sound was last played
 
 local function playSound()
@@ -364,7 +364,7 @@ local function playSound()
     local sound = Instance.new("Sound")
     sound.SoundId = "rbxassetid://" .. soundID
     sound.Parent = game.Players.LocalPlayer.Character or game.Players.LocalPlayer -- Parent to character if it exists, otherwise parent to player
-    sound.Volume = 0.5 -- Adjust volume as needed
+    sound.Volume = 1 -- Adjust volume as needed
 
     -- Optionally, destroy the sound after it's done:
     sound.Ended:Connect(function()
