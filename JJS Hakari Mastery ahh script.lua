@@ -1,8 +1,3 @@
--- keep use this actual link to gets for updates (i promise i won't delete this script no matter what)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Mautiku/ehh/main/sussy's%20animation%20logger.txt",true))()
-
--- Function to handle animation detection and replacement
--- Function to handle animation detection and replacement
 local function handleAnimationDetection(animIdsToStop, replacementAnimId, animSpeed)
     local player = game.Players.LocalPlayer
     local character = player.Character or player.CharacterAdded:Wait()
@@ -169,7 +164,7 @@ handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAni
 -- Uppercut set of animations
 local fourthAnimIdsToStop = {18433346594}
 local fourthReplacementAnimId = 137002918500388
-local fourthAnimspeed = 1.5
+local fourthAnimspeed = 1.7
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
 
 
