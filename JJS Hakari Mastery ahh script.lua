@@ -167,6 +167,13 @@ local fourthReplacementAnimId = 137002918500388
 local fourthAnimspeed = 1.7
 handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
 
+-- R ULT set of animations
+local fourthAnimIdsToStop = {17169800433}
+local fourthReplacementAnimId = 17204867007
+local fourthAnimspeed = 1
+handleAnimationDetection(fourthAnimIdsToStop, fourthReplacementAnimId, fourthAnimspeed)
+
+
 
 
 -- Notification
